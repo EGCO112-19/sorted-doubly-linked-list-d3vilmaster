@@ -6,6 +6,7 @@ struct Node {
 // prototypes
 
 typedef struct Node LLnode; // synonym for struct listNode
+
 typedef LLnode *LLPtr;// synonym for ListNode*
 
 int deletes( LLPtr *sPtr, int value );
