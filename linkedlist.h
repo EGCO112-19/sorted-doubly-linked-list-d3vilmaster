@@ -4,6 +4,7 @@ struct Node {
    struct Node *nextPtr; // pointer to next node
 }; // end structure listNode                        
 // prototypes
+
 typedef struct Node LLnode; // synonym for struct listNode
 typedef LLnode *LLPtr;// synonym for ListNode*
 
